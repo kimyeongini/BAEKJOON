@@ -1,8 +1,11 @@
 class Solution {
     public int solution(int a, int b, boolean flag) {
-        int answer = a-b;
-        if(flag){
-            answer = a+b;
+        int answer = 0;
+        
+        if(flag == true){
+            answer = a + b;
+        } else {
+            answer = a - b;
         }
         return answer;
     }
